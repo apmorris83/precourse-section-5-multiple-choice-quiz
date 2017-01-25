@@ -78,3 +78,17 @@ h3{
   text-align: center;
   color: #fff;
 }
+#tryAgain{
+  width: 120px;
+  height: 40px;
+  background-color: #3c9664;
+  color: #fff;
+  margin: auto;
+  line-height: 40px;
+}
+a{
+  text-decoration: none;
+}
+#tryAgain:hover{
+  background-color: #000;
+}
