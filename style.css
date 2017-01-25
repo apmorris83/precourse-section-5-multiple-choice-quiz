@@ -32,7 +32,19 @@ td{
   background-color: #9fe3bd;
 }
 .chosen-correct{
+  width: 25%;
   background-color: #10ff7b;
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding:10px;
+  list-style-type: none;
+}
+.chosen-incorrect{
+  color: #fff;
+  width: 25%;
+  background-color: #ff1021;
   text-align: center;
   font-size: 16px;
   font-family: sans-serif;

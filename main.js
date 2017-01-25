@@ -11,3 +11,11 @@ $(document).ready(function(){
 });
 
 /*guess the incorrect answer*/
+
+$(document).ready(function(){
+  $('.incorrect').click(function(){
+    $(this).removeClass('guess');
+    $(this).addClass('chosen-incorrect')
+
+  })
+});
