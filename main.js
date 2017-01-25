@@ -1,5 +1,9 @@
 //console.log('hello');
 
+var questionsRight = 0;
+
+document.getElementById("playerScore").innerHTML = questionsRight;
+
 /*guess the correct answer*/
 
 $(document).ready(function(){
@@ -14,6 +18,9 @@ $(document).ready(function(){
 
     $(this).unbind();
     $(this).siblings().unbind();
+
+    questionsRight += 1;
+    document.getElementById("playerScore").innerHTML = questionsRight;
 
   })
 });

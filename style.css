@@ -62,3 +62,19 @@ td{
   padding:10px;
   list-style-type: none;
 }
+#scoreboard{
+  width: 120px;
+  height: 60px;
+  background-color: #3c9664;
+  color: #fff;
+  position: absolute;
+  position: fixed;
+  margin-top: -25px;
+  margin-left: 30px;
+}
+h3{
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
